@@ -1,0 +1,68 @@
+ body{
+    background-color: beige;
+ }
+.container{
+    height:300px;
+    width:300px;
+    background-color: rgb(5, 1, 1);
+    border-radius: 20px;
+    z-index: -1;
+    position: relative;
+    left: 400px;
+    top: 200px;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.box{
+    color: white;
+   
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+h3{
+    margin:5px;
+    border: 2px solid white;
+    border-radius:14px;
+    width:100px;
+    text-align: center;
+    
+    
+}
+.form {
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.form input{
+    margin:10px;
+    border-radius: 8px;
+
+}
+p{
+    text-align: center;
+
+}
+.sign{
+    display: flex;
+    flex-direction: row;
+    ;
+}
+p:hover{
+    color: black ;
+   
+    
+}
+.sign input:hover{
+    color: skyblue;
+   
+}
